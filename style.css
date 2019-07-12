@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#calcutor-box{
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* carbon fiber texture. */
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    /* carbon fiber texture.^^^ */
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25); 
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+}
+#calc-screen{
+    height: 15%;
+    width: 80%;
+    background-color: white;
+    margin-bottom:0px;
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* number buttons */
+#num-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height:240px;
+    margin: 5px;
+    margin-right: 0px;
+    margin-top:0px;
+    padding: 10px;
+    background-color: grey;
+    box-lines: black;
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
+}
+.nums{
+    margin:5px;
+    height:50px;
+    width:50px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+#zero{
+    margin:5px;
+    height:50px;
+    width:110px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+#neg-pos{
+    margin:5px;
+    height:50px;
+    width:50px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+/* operator buttons */
+#operator-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 55px;
+    height:240px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-top:0px;
+    padding: 10px;
+    background-color: grey;
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
+}
+.operators{
+    margin:5px;
+    height:40px;
+    width:50px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+#special-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 275px;
+    height:50px;
+    margin: 5px;
+    margin-bottom:-45px;
+    padding: 10px;
+    background-color: grey;
+    -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
+}
+#equal{
+    margin:5px;
+    height:40px;
+    width:110px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+#clear{
+    margin:5px;
+    height:40px;
+    width:50px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    background-color: palevioletred;
+    color: white;
+}
+
+#decimal{
+    margin:5px;
+    height:40px;
+    width:50px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    margin-left: 40px;
+}
+
+#neg-pos{
+    margin:5px;
+    height:50px;
+    width:50px;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
